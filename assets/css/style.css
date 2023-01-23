@@ -332,7 +332,7 @@ main {
 }
 
 .avatar-box {
-  background: var(--bg-gradient-onyx);
+  /* background: var(--bg-gradient-onyx); */
   border-radius: 20px;
 }
 
@@ -1835,7 +1835,10 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .sidebar-info { flex-direction: column; }
 
-  .avatar-box img { width: 150px; }
+  .avatar-box img { 
+    width: 150px;
+    border-radius: 80px;
+  }
 
   .info-content .name {
     white-space: nowrap;
@@ -1879,4 +1882,15 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .timeline-text { max-width: 700px; }
 
+}
+.technologies {
+  margin-top: 35px;
+}
+.about-text strong a {
+  display: inline-block;
+  color: #ccc;
+  transition: ease-in-out 0.3s;
+}
+.about-text strong a:hover {
+  color: aliceblue;
 }
