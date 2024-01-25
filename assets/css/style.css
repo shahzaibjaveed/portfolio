@@ -1894,3 +1894,13 @@ textarea.form-input::-webkit-resizer { display: none; }
 .about-text strong a:hover {
   color: aliceblue;
 }
+.workList {
+  padding: 0 0 0 15px;
+  text-align: justify;
+}
+.workList li {
+  list-style: circle;
+  color: #fff;
+  font-size: 13px;
+  margin: 0 0 5px 0;
+}
